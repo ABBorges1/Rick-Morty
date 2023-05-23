@@ -146,7 +146,7 @@ export const Avatarperfil = styled.Image`
 
 export const Nameperfil = styled.Text`
   font-size: 16px;
-  color: #333;
+  color: #F2F5F7;
   font-weight: bold;
   margin-top: 4px;
   text-align: center;
@@ -155,7 +155,7 @@ export const Nameperfil = styled.Text`
 export const Bioperfil = styled.Text`
   font-size: 15px;
   line-height: 18px;
-  color: #999;
+  color: #F2F5F7;
   margin-top: 5px;
   text-align: center;
 `;
@@ -167,7 +167,7 @@ export const Stars = styled.FlatList.attrs({
 `;
 
 export const Starred = styled.View`
-  background: #f5f5f5;
+  background: #1E591C;
   border-radius: 4px;
   padding: 10px 15px;
   margin-bottom: 20px;
@@ -192,7 +192,7 @@ export const Title = styled.Text.attrs({
 })`
   font-size: 15px;
   font-weight: bold;
-  color: #334;
+  color: #F2F2F2;
 `;
 
 export const Author = styled.Text`

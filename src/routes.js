@@ -36,15 +36,15 @@ export default function Routes() {
                     },
                 }}/>
                 <Stack.Screen name="character" component={Character} options={{
-                    title: 'Personagens do 1 episódio',
+                    title: 'Rick and Morty - Details',
                     headerTitleAlign: 'center',
-                    headerTintColor: '#fff',
+                    headerTintColor: '#F2F5F7',
                     headerStyle: {
-                        backgroundColor: '#3498db'
+                        backgroundColor: '#0D0D0D'
                     },
                     headerTitleStyle: {
                         fontWeight: 'bold',
-                        color: '#fff',
+                        color: '#F2F5F7',
                     },
                 }}/> 
                 <Stack.Screen name="register" component={Register} options={{
